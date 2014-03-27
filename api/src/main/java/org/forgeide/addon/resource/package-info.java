@@ -1,0 +1,1 @@
+package org.forgeide.addon.resource;
