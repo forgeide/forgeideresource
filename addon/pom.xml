@@ -20,20 +20,20 @@
       <artifactId>javaee</artifactId>
       <classifier>forge-addon</classifier>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>org.forgeide.addon.resource</groupId>
       <artifactId>forgeideresource-api</artifactId>
-    </dependency>
+    </dependency-->
     <dependency>
       <groupId>org.forgeide.addon.resource</groupId>
       <artifactId>forgeideresource-impl</artifactId>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>org.forgeide.addon.resource</groupId>
       <artifactId>forgeideresource-spi</artifactId>
       <classifier>forge-addon</classifier>
-    </dependency>
+    </dependency-->
   </dependencies>
   <build>
     <plugins>

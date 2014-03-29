@@ -8,9 +8,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>addon</module>
-    <module>api</module>
     <module>impl</module>
-    <module>spi</module>
     <module>tests</module>
   </modules>
   <properties>
