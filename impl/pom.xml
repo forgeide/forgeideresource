@@ -15,7 +15,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.jboss.forge.addon</groupId>
+      <groupId>org.forgeide.addon</groupId>
       <artifactId>resources-api</artifactId>
       <scope>provided</scope>
     </dependency>

@@ -25,11 +25,11 @@
       <artifactId>arquillian-furnace-classpath</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>org.jboss.forge.addon</groupId>
       <artifactId>javaee</artifactId>
       <classifier>forge-addon</classifier>
-    </dependency>
+    </dependency-->
     <dependency>
       <groupId>org.forgeide.addon</groupId>
       <artifactId>resources</artifactId>

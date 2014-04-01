@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
+    <module>api</module>
     <module>addon</module>
     <module>impl</module>
     <module>tests</module>
@@ -49,15 +50,20 @@
       </dependency>
       <dependency>
         <groupId>org.forgeide.addon</groupId>
-        <artifactId>resources-impl</artifactId>
+        <artifactId>resources-api</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.forgeide.addon</groupId>
+        <artifactId>resources-impl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <!--dependency>
         <groupId>org.jboss.forge.addon</groupId>
         <artifactId>javaee</artifactId>
         <version>${version.forge}</version>
         <classifier>forge-addon</classifier>
-      </dependency>
+      </dependency-->
       <dependency>
         <groupId>org.jboss.forge.addon</groupId>
         <artifactId>resources</artifactId>
@@ -72,6 +78,12 @@
       <dependency>
         <groupId>org.jboss.forge.furnace.container</groupId>
         <artifactId>cdi</artifactId>
+        <version>${version.forge}</version>
+        <classifier>forge-addon</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.forge.addon</groupId>
+        <artifactId>facets</artifactId>
         <version>${version.forge}</version>
         <classifier>forge-addon</classifier>
       </dependency>
