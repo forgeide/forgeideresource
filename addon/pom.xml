@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.forgeide.addon.resource</groupId>
-    <artifactId>forgeideresource-parent</artifactId>
+    <groupId>org.forgeide.addon</groupId>
+    <artifactId>resources-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>forgeideresource</artifactId>
+  <artifactId>resources</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.jboss.forge.furnace.container</groupId>
@@ -20,20 +20,15 @@
       <artifactId>javaee</artifactId>
       <classifier>forge-addon</classifier>
     </dependency>
-    <!--dependency>
-      <groupId>org.forgeide.addon.resource</groupId>
-      <artifactId>forgeideresource-api</artifactId>
-    </dependency-->
     <dependency>
-      <groupId>org.forgeide.addon.resource</groupId>
-      <artifactId>forgeideresource-impl</artifactId>
+      <groupId>org.jboss.forge.addon</groupId>
+      <artifactId>resources-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.forgeide.addon</groupId>
+      <artifactId>resources-impl</artifactId>
       <scope>runtime</scope>
     </dependency>
-    <!--dependency>
-      <groupId>org.forgeide.addon.resource</groupId>
-      <artifactId>forgeideresource-spi</artifactId>
-      <classifier>forge-addon</classifier>
-    </dependency-->
   </dependencies>
   <build>
     <plugins>

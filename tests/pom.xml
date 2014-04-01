@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.forgeide.addon.resource</groupId>
-    <artifactId>forgeideresource-parent</artifactId>
+    <groupId>org.forgeide.addon</groupId>
+    <artifactId>resources-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>forgeideresource-tests</artifactId>
+  <artifactId>resources-tests</artifactId>
   <dependencies>
     <dependency>
       <groupId>org.jboss.forge.furnace.container</groupId>
@@ -31,8 +31,8 @@
       <classifier>forge-addon</classifier>
     </dependency>
     <dependency>
-      <groupId>org.forgeide.addon.resource</groupId>
-      <artifactId>forgeideresource</artifactId>
+      <groupId>org.forgeide.addon</groupId>
+      <artifactId>resources</artifactId>
       <classifier>forge-addon</classifier>
     </dependency>
   </dependencies>
